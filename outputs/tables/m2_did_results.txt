@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        liquidity_ratio   R-squared:                       0.473
+Model:                            OLS   Adj. R-squared:                  0.471
+Method:                 Least Squares   F-statistic:                     238.8
+Date:                Mon, 17 Aug 2026   Prob (F-statistic):           3.83e-28
+Time:                        21:13:00   Log-Likelihood:                 3506.8
+No. Observations:                1280   AIC:                            -7002.
+Df Residuals:                    1274   BIC:                            -6971.
+Df Model:                           5                                         
+Covariance Type:              cluster                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+Intercept           0.1026      0.017      6.129      0.000       0.070       0.135
+is_treated          0.0018      0.004      0.468      0.640      -0.006       0.009
+is_post         -8.929e-05      0.001     -0.128      0.898      -0.001       0.001
+did_interaction    -0.0313      0.001    -27.188      0.000      -0.034      -0.029
+bank_size           0.0052      0.001      3.643      0.000       0.002       0.008
+capital_ratio       0.0183      0.029      0.635      0.525      -0.038       0.075
+==============================================================================
+Omnibus:                        6.685   Durbin-Watson:                   0.817
+Prob(Omnibus):                  0.035   Jarque-Bera (JB):                5.653
+Skew:                           0.087   Prob(JB):                       0.0592
+Kurtosis:                       2.725   Cond. No.                         719.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)

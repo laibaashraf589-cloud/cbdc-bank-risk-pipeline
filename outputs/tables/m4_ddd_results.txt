@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        liquidity_ratio   R-squared:                       0.487
+Model:                            OLS   Adj. R-squared:                  0.483
+Method:                 Least Squares   F-statistic:                     172.8
+Date:                Mon, 17 Aug 2026   Prob (F-statistic):           5.41e-28
+Time:                        21:13:05   Log-Likelihood:                 3523.9
+No. Observations:                1280   AIC:                            -7030.
+Df Residuals:                    1271   BIC:                            -6983.
+Df Model:                           8                                         
+Covariance Type:              cluster                                         
+================================================================================================
+                                   coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+Intercept                        0.1636      0.005     31.732      0.000       0.153       0.174
+is_treated                      -0.0031      0.006     -0.541      0.589      -0.014       0.008
+is_post                         -0.0008      0.001     -1.084      0.278      -0.002       0.001
+is_treated:is_post              -0.0304      0.002    -18.398      0.000      -0.034      -0.027
+high_size                        0.0103      0.006      1.755      0.079      -0.001       0.022
+is_treated:high_size             0.0075      0.008      0.971      0.331      -0.008       0.023
+is_post:high_size                0.0013      0.001      0.973      0.331      -0.001       0.004
+is_treated:is_post:high_size    -0.0019      0.002     -0.805      0.421      -0.006       0.003
+capital_ratio                    0.0095      0.029      0.324      0.746      -0.048       0.067
+==============================================================================
+Omnibus:                       14.677   Durbin-Watson:                   0.842
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               12.512
+Skew:                           0.176   Prob(JB):                      0.00192
+Kurtosis:                       2.667   Cond. No.                         85.5
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
