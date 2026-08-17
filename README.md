@@ -1,4 +1,4 @@
-BDC Announcement Impact on Bank Risk: Empirical Pipeline
+CBDC Announcement Impact on Bank Risk: Empirical Pipeline
 
 An end-to-end econometric research pipeline built in Python to evaluate the causal impact of Central Bank Digital Currency (CBDC) announcements on commercial bank-level liquidity risk.
 
