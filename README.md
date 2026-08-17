@@ -13,11 +13,11 @@ Module 4 (Triple Differences - DDD): Bank-level size heterogeneity analysis.
 
 🛠️ Project Structure
 
-data: Raw macro time-series and bank panel datasets
+data/: Raw macro time-series and bank panel datasets
 
-modules: Econometric modeling scripts (M1 to M4)
+modules/: Econometric modeling scripts (M1 to M4)
 
-outputs: High-resolution figures and regression text tables
+outputs/: High-resolution figures and regression text tables
 
 main.py: Master pipeline execution script
 
@@ -31,6 +31,5 @@ Execute full empirical pipeline: python main.py
 
 📊 Key Figures
 
-Dynamic Event Study Output: outputs/figures/m3_event_study.png
-
-Time Series Structural Break: outputs/figures/m1_time_series_break.png
+Dynamic Event Study Output
+Time Series Structural Break
