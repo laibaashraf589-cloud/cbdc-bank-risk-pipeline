@@ -18,14 +18,17 @@ cbdc_project/
 ├── main.py            # Master pipeline execution script
 ├── requirements.txt   # Dependencies
 └── README.md
-🚀 How to Run
-Bash
+## 🚀 How to Run
+```bash
 # 1. Install dependencies
 pip install -r requirements.txt
 
 # 2. Execute full empirical pipeline
 python main.py
-📊 Key Figures
+'''
+## 📊 Key Figures
+- **Dynamic Event Study Output:** `outputs/figures/m3_event_study.png`
+- **Time Series Structural Break:** `outputs/figures/m1_time_series_break.png`
 Dynamic Event Study Output: outputs/figures/m3_event_study.png
 
 Time Series Structural Break: outputs/figures/m1_time_series_break.png
